@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="113.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="relationaldatabase2.ResultController">
+  <children>
+    <Pane prefHeight="141.0" prefWidth="257.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        
+        <Label id="lResult" fx:id="lResult" layoutX="120.0" layoutY="48.0" text="ResultMessage" />
+        <Button fx:id="btnClose" layoutX="137.0" layoutY="74.0" mnemonicParsing="false" onAction="#close" text="Close" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
